@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Year');
+        data.addColumn('number', 'Poisid');
+        data.addColumn('number', 'Tüdrukud');
+        data.addRows([
+          ['2004', 1000, 800],
+          ['2005', 1170, 760],
+          ['2006', 660, 1120],
+          ['2007', 1030, 740]
+        ]);
+
+        var options = {
+          width: 640, height: 440,
+          title: 'Õpilaste arv',
+          hAxis: {title: 'Aasta', titleTextStyle: {color: 'red'}}
+        };
+
+        var chart = new google.visualization.ColumnChart(document.getElementById('chart_div'));
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="chart_div"></div>
+  </body>
+</html>
