@@ -1,29 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Session Name="/home/student/Desktop/html/testiprojekt/testiprojekt.workspace">
-<<<<<<< HEAD
-  <int Value="0" Name="m_selectedTab"/>
-  <wxString Value="/home/student/Desktop/html/testiprojekt/testiprojekt.workspace" Name="m_workspaceName"/>
-  <TabInfoArray Name="TabInfoArray"/>
-=======
   <int Value="1" Name="m_selectedTab"/>
   <wxString Value="/home/student/Desktop/html/testiprojekt/testiprojekt.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
-      <wxString Value="/var/www/html/hello.php" Name="FileName"/>
+      <wxString Value="/home/student/Desktop/html/Exercise/Chapter 6/Projekt/projekti_info.php" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="6" Name="CurrentLine"/>
+      <int Value="9" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
-      <wxString Value="/var/www/html/syntax/tom.php" Name="FileName"/>
+      <wxString Value="/home/student/Desktop/html/Exercise/Chapter 6/Projekt/projekt/index.php" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="0" Name="CurrentLine"/>
+      <int Value="21" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
   </TabInfoArray>
->>>>>>> 36b199b1edbd9d0bd69b846534cbd9465825f3d2
   <SerializedObject Name="m_breakpoints">
     <long Value="0" Name="Count"/>
   </SerializedObject>
