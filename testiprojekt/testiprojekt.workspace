@@ -1,0 +1,12 @@
+{
+ "metadata": {
+  "version": "1.0",
+  "ide": "CodeLite",
+  "type": "php"
+ },
+<<<<<<< HEAD
+ "projects": ["testiprojekt.phprj"]
+=======
+ "projects": ["../../../../../var/www/html/syntax/syntax.phprj"]
+>>>>>>> 36b199b1edbd9d0bd69b846534cbd9465825f3d2
+}
